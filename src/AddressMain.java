@@ -28,11 +28,15 @@ public class AddressMain {
                     System.out.println("연락처를 입력하세요.");
                     String phone = sc.next();
 
-                    if() {
-                        System.out.println("등록되었습니다");
-                    } else {
-                        System.out.println("중복 된 정보가 있어요.");
+                    /*입력을 다 받은 후*/
+                    if(/* 검색했을때 정보가 있다면 */) {
+                        System.out.println("중복된 정보가 있습니다.");
                     }
+
+                    if(/* 검색을 했을때 없어서 등록을 한후 검색해서 결과가 나온다면 */) {
+                        System.out.println("등록되었습니다");
+                    }
+
 
                     break;
 
