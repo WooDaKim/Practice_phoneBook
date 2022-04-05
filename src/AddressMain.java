@@ -65,6 +65,7 @@ public class AddressMain {
 
                 case 3: //수정
                     System.out.println("수정할 이름을 입력하세요.");
+String SearchName = new
                     if(address.size() <= 0) {
                         System.out.println("등록된 연락처가 없습니다.");
                     } else {
@@ -86,6 +87,8 @@ public class AddressMain {
 
                 case 5: //검색
                     System.out.println("검색할 이름을 입력하세요.");
+                    String searchName = sc.nextLine();
+                    Address p = address.get(Integer.parseInt(name));
                     break;
 
                 case 9: //완료
